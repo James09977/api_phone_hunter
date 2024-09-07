@@ -43,8 +43,14 @@
         class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 bg-cyan-50"
       ></section>
       <div class="text-center hidden" id="show-all-container">
-        <button class="btn btn-accent text-white">See all</button>
+        <button onclick="seeAllHandler()" class="btn btn-accent text-white">
+          See all
+        </button>
       </div>
+
+      <!-- //see details modal -->
+      <!-- Open the modal using ID.showModal() method -->
+      <div id="details-modal"></div>
     </body>
 
     <script src="js/app.js"></script>
